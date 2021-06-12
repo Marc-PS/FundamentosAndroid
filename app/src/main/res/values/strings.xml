@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fundamentos-Eh-Ho</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="label_create_new_account">Create new account</string>
+    <string name="label_login">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="label_signup">Sign up</string>
+    <string name="label_signin">Sign in</string>
+    <string name="label_loading">Loading</string>
+    <string name="error_username">Remember username must be alphanumeric and with minimum of 5 characters</string>
+    <string name="error_password">Minimum 8 characters, at least one letter, one number and one special character</string>
+    <string name="error_signin">Error login, try other user or pasword</string>
+    <string name="text_missing">There is no text to show up!</string>
+    <string name="no_posts">Wait until someone post here!</string>
+
+    <string name="title_activity_topics">TopicsActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+</resources>

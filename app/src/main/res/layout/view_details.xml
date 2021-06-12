@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="8dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/detailAvatar"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:src="@tools:sample/avatars"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/detailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/detailAvatar"
+        android:layout_alignEnd="@id/detailAvatar"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/detailAvatar"
+        tools:text="@tools:sample/full_names"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/detailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/detailAvatar"
+        android:layout_alignEnd="@id/detailAvatar"
+        android:gravity="center"
+        android:layout_below="@+id/detailName"
+        tools:text="@tools:sample/us_zipcodes"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/detailMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/detailAvatar"
+        tools:text="@tools:sample/lorem/random"
+        />
+</RelativeLayout>
